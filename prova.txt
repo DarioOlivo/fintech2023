@@ -8,4 +8,8 @@ tissot
 lamborghini
 sono un genio!
 leeessgooooooo!!!!!!
+<<<<<<< Updated upstream
 mar co
+=======
+niggg
+>>>>>>> Stashed changes
