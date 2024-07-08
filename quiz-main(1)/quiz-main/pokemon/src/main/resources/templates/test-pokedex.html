@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Test Pokedex</title>
+</head>
+<body>
+	<h1>Test Pokedex</h1>
+		<script type="text/javascript">
+		const URL = '/api/pokemon/3';
+		fetch(URL)
+			.then(res => res.json())
+			.then(collezione => {
+				for (const pokemon of collezione) {
+					const H2 = document.createElement('H2')
+					H2.textContent = pokemon.pokedex
+
+					document.body.append(H2)
+				}
+			})
+	</script>
+</body>
+</html>

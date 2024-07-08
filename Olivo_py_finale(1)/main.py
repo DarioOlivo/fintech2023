@@ -1,0 +1,1 @@
+#progetto ai_ml sviluppo di un modello basilare di machine learning che dovrebbe preddire qualità di un vino
